@@ -114,7 +114,10 @@ management:
       exposure:
         include: '*'
 
-
+logging:
+  level:
+    reactor.netty: DEBUG
+    org.springframework.cloud.gateway: DEBUG
 
 
 
