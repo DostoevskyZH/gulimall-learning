@@ -22,8 +22,8 @@ public class GulimallWebConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         // 将 /static/** 路径映射到 classpath:/static/ 目录
         // 这样可以支持直接访问 Spring Boot 应用时也能正确加载静态资源
-        registry.addResourceHandler("/static/**")
-                .addResourceLocations("classpath:/static/");
+//        registry.addResourceHandler("/static/**")
+//                .addResourceLocations("classpath:/static/");
     }
 }
 
